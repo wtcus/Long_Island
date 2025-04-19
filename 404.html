@@ -1,78 +1,62 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <title>Erorr 404</title>
-    </head>
-    <body>
-        <style>
-            body{
-                background-color: #ffffff ;
-            }
-            .reload{
-                background-color: #8CABED;
-                color: #ffffff;
-                border: none;
-                height: 50px;
-                width: 100px;
-                cursor:pointer;
-                font-size: 20px;
-                border-radius: 10px ;
-                font-weight: 50;
-                justify-content: center;
-                align-items: center;
-                margin-bottom: 5px;
-            }
-            .reload:hover{
-                color: black;
-                background-color:#f1ff33;
-            }
-            .reload:active{
-                background-color: #f1ff33;
-                color: black;
-            }
-            .reload:focus{
-                outline: none;
-            }
-            .reload:focus-visible{
-                outline: none;
-            }
-            .reload:focus-within{
-                outline: none;
-            }
-        
-        </style>
-        <script>
-            function Home() {
-                windows.location.href = "https://wtcus.github.io/Long_Island/";
-            }
-        </script>
-        <div class="container">
-            <img src="images/404.png" alt="404" width="600" height="400">
-            <button class="reload" onclick="Home()">Home</button>
-            
-        </div>
-        <style>
-            .container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin-top: 100px;
-            }
-            img{
-                margin-bottom: 20px;
-            }
-            button{
-                margin-top: 20px;
-            }
-            .container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                margin-top: 100px;
-            }
-            </style>
-        </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error 404</title>
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+        .reload {
+            background-color: #8CABED;
+            color: #ffffff;
+            border: none;
+            height: 50px;
+            width: 100px;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .reload:hover {
+            color: black;
+            background-color: #f1ff33;
+        }
+        .reload:active {
+            background-color: #f1ff33;
+            color: black;
+        }
+        .reload:focus,
+        .reload:focus-visible,
+        .reload:focus-within {
+            outline: none;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+        img {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/404.png" alt="404" width="600" height="400">
+        <button class="reload" onclick="Home()">Home</button>
+    </div>
+
+    <script>
+        function Home() {
+            window.location.href = "https://wtcus.github.io/Long_Island/";
+        }
+    </script>
+</body>
 </html>
